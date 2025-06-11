@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@canvasjs/charts": "^3.12.18",
+    "prompt-sync": "^4.2.0"
+  }
+}

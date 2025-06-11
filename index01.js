@@ -70,6 +70,7 @@ else{
 }
 
 console.log('Vamos calcular seu IMC e descobrir como você está');
+console.log('');
 // Vamos aguardar 10 segundos para criar um suspense
   setTimeout(() => {
   console.log('Calculando o seu IMC... Aguarde...')
@@ -82,6 +83,6 @@ console.log('Vamos calcular seu IMC e descobrir como você está');
  setTimeout(() => {
   console.log(nomeUser+', '+'seu IMC é: '+ imc.toFixed(2) + ' e você está ' + resultado);
 }, 10000)
-console.log();
-console.log();
-console.log();
+setTimeout(() => {
+  console.log();
+}, 11000)
